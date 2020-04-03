@@ -1,0 +1,77 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+/*-----Row-----*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*--------------*/
+
+/*-----Container-----*/
+.container {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 990px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+/*-------------------*/
+
+/*-----Col-----*/
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.col-1 {
+    max-width: 8.33%;
+}
+
+.col-2 {
+    max-width: 16.66%;
+}
+
+.col-3 {
+    max-width: 24.99%;
+}
+
+.col-4 {
+    max-width: 33.32%;
+}
+
+.col-5 {
+    max-width: 41.65%;
+}
+
+.col-6 {
+    max-width: 49.98%;
+}
