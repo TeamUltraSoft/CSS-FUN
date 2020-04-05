@@ -1,0 +1,35 @@
+.alert {
+    position: relative;
+    padding: 12px 20px;
+    margin-bottom: 16px;
+    background-color: #e0e0e0;
+    color: #212529;
+}
+
+button {
+    margin: 0;
+    text-transform: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    overflow: visible;
+    border-radius: 0;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: #e0e0e0;
+    color: #212529;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 4px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
